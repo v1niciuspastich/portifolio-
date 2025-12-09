@@ -1,2 +1,0 @@
-# portifolio-
-Vinicius Pastich
