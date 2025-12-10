@@ -1,13 +1,12 @@
+/* Estilo geral */
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
-    /* Fundo roxo com gradiente */
-    background: linear-gradient(135deg, #6a11cb 0%, #3a0ca3 50%, #240046 100%);
-    
-    color: #eae2ff;
+    /* Fundo ROXO bem forte */
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 40%, #2e1065 100%);
+    color: #f5f3ff;
 }
-
 
 /* Cabeçalho */
 header {
@@ -15,8 +14,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 18px 10%;
-    background: #020617;
-    border-bottom: 1px solid #1f2937;
+    background: rgba(24, 16, 48, 0.95);
+    border-bottom: 1px solid #4c1d95;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -29,7 +28,7 @@ header h1 {
 }
 
 nav a {
-    color: #38bdf8;
+    color: #c4b5fd;
     text-decoration: none;
     margin-left: 24px;
     text-transform: uppercase;
@@ -53,8 +52,8 @@ main {
     justify-content: flex-start;
     padding: 40px 32px;
     border-radius: 18px;
-    background: rgba(15, 23, 42, 0.95);
-    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+    background: rgba(31, 24, 72, 0.95);
+    box-shadow: 0 18px 40px rgba(24, 16, 48, 0.9);
     margin-bottom: 30px;
     max-width: 900px;
 }
@@ -67,7 +66,7 @@ main {
 .hero p {
     max-width: 620px;
     line-height: 1.6;
-    color: #cbd5f5;
+    color: #e9d5ff;
 }
 
 /* Botão de contato */
@@ -77,24 +76,24 @@ button#btn-contato {
     border-radius: 999px;
     border: none;
     cursor: pointer;
-    background: #38bdf8;
-    color: #0f172a;
+    background: #f97316; /* laranja pra destacar no roxo */
+    color: #1f2937;
     font-weight: 600;
     font-size: 0.95rem;
 }
 
 button#btn-contato:hover {
-    background: #0ea5e9;
+    background: #fb923c;
 }
 
 /* Seções de conteúdo */
 .secao {
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(31, 24, 72, 0.95);
     padding: 24px 28px;
     border-radius: 16px;
     margin-top: 24px;
     max-width: 900px;
-    border-left: 4px solid #38bdf8;
+    border-left: 4px solid #a855f7;
 }
 
 .secao h3, .secao h2 {
@@ -102,6 +101,7 @@ button#btn-contato:hover {
     margin-bottom: 14px;
 }
 
+/* Lista de projetos */
 .lista-projetos {
     padding-left: 20px;
     line-height: 1.7;
@@ -109,7 +109,7 @@ button#btn-contato:hover {
 
 /* Links */
 a {
-    color: #38bdf8;
+    color: #c4b5fd;
     text-decoration: none;
 }
 
@@ -122,5 +122,5 @@ footer {
     text-align: center;
     padding: 24px 0 32px;
     font-size: 0.85rem;
-    color: #9ca3af;
+    color: #e9d5ff;
 }
