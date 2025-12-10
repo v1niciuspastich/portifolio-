@@ -1,10 +1,13 @@
-/* Estilo geral */
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #020617 100%);
-    color: #e5e7eb;
+
+    /* Fundo roxo com gradiente */
+    background: linear-gradient(135deg, #6a11cb 0%, #3a0ca3 50%, #240046 100%);
+    
+    color: #eae2ff;
 }
+
 
 /* Cabeçalho */
 header {
