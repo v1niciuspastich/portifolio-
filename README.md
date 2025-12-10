@@ -16,7 +16,7 @@ Criar meus primeiros sites
 
 Montar um portfólio
 
-Evoluir como desenvolvedor web bb
+Evoluir como desenvolvedor web 
 
 📬 Contato
 
